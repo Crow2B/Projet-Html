@@ -1,0 +1,50 @@
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    align-items: center;
+    border-color:black;
+    background-color: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.btn{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.menu{
+    width:100%;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+p{
+    margin-top:-5px;
+}
+
+.form{
+    justify-content: center;
+    justify-items: center;
+    color:rgb(33, 33, 33);
+    margin-left:15%;
+    border: solid rgb(33, 33, 33) 2px;
+    
+}
+
+.deepInside{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxForm{
+    margin-right:15%;
+}

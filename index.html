@@ -1,0 +1,83 @@
+<header>
+    <link rel="stylesheet" href="squelette.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Musée d'Orsay</title>
+</header>
+
+<body class="col10"> 
+
+    <nav class="flex  navbar col10">
+
+        <div class="col2 flex imgheader">
+            <img src="logo.svg"/>
+        </div>
+
+        <ul class="col6 flex spaceBetween menu">
+            <li><a href="https://www.musee-orsay.fr/fr/collections" class="link">Les collections</a></li>
+            <li><a href="https://www.musee-orsay.fr/fr/visite" class="link">Visite</a></li>
+            <li><a href="https://www.musee-orsay.fr/fr/vous-etes" class="link">Vous êtes</a></li>
+            <li><a href="https://www.musee-orsay.fr/fr/agenda" class="link">Agenda</a></li>
+            <li><a href="https://www.musee-orsay.fr/fr/ressources" class="link">Ressources</a></li>
+            <li><a href="https://billetterie.musee-orsay.fr/fr-FR/accueil" class="link">Billeterie</a></li>
+        </ul>
+
+        <div class="col2 btn">
+            <button>Contact</button>
+        </div>
+    </nav>
+
+    <div class="flex spaceBetween col10 content">
+        <p class="content col4">L'œuvre de Munch occupe dans la modernité artistique une place charnière.
+        Elle plonge ses racines dans le XIXe siècle pour s’inscrire pleinement dans le suivant.
+        Plus encore, son œuvre tout entière est innervée par une vision du monde singulière lui conférant
+        une puissante dimension symboliste qui ne se réduit pas aux quelques chefs-d'œuvre qu’il a créés
+        dans les années 1890. Dépassant le symbolisme fin-de-siècle, Munch transcende ce mouvement au-delà
+        de son apogée pour en faire l’épine dorsale de son œuvre, lui conférant ainsi sa grande cohérence.
+        Ces œuvres viennent approfondir la réflexion développée autour de la série DOWN commencée en 2008. 
+        Initialement inspiré par le célèbre Le Christ mort au tombeau de Hans Holbein, ainsi que par des peintures 
+        et des sculptures historiques de guerriers tombés et de personnages au repos, Wiley a créé une série troublante 
+        de corps de couleur gisants au sol. Il vient ainsi re-conceptualiser les formes picturales classiques pour créer 
+        une version contemporaine du portrait monumental, retentissante de violence, de douleur, de mort et d'extase.
+        <br>
+        Comme le précise Christophe Leribault, président des musées d’Orsay et de l’Orangerie :
+        « Tout en jouant des stéréotypes de la peinture et de la sculpture occidentale, Kehinde Wiley porte un message
+        actuel sur la violence de la société contemporaine. J’ai souhaité présenter ces œuvres dans le fil même des collections 
+        du musée d’Orsay qui l’ont tant inspiré et dont il offre une relecture fascinante. »
+        Kehinde Wiley (né en 1977 à Los Angeles) est un artiste visuel de renommée mondiale, célèbre pour ses représentations
+        dynamiques d'afro-américains et afro-diasporiques contemporains qui renversent les hiérarchies et les conventions du
+        portrait européen et américain. Travaillant dans les médiums de la peinture, de la sculpture et de la vidéo, Wiley 
+        défie dans ses portraits les récits de l'histoire de l'art, soulevant des questions sociopolitiques complexes longtemps
+        restées taboues.En 2018, Wiley a été le premier artiste afro-américain à peindre un portrait officiel d’un président 
+        américain pour la Smithsonian National Portrait Gallery, suivant le souhait de Barack Obama.
+        </p>
+
+        <div class="col4 content">
+            <img src="/img/peinture1.jpeg" />
+            <img src="/img/peinture2.jpeg" />
+        </div>
+    </div>
+
+    <div class="col10 flex boxForm">
+        <div class="col3 flex form">
+            <form action="/ma-page-de-traitement" method="post" class="deepInside">
+                <div>
+                <br>
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <br>
+                <div>
+                    <label for="mail">e-mail&nbsp;:</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <br>
+                <div>
+                    <button class="btn2">souscrire à la Newletter du musée d'Orsay</button>
+                </div>
+                <br>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
