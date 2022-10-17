@@ -21,6 +21,11 @@ button{
     justify-items: center;
 }
 
+.navbar{
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
 .menu{
     width:100%;
     padding-left:10%;
@@ -29,7 +34,6 @@ button{
 
 p{
     margin-top:-5px;
-    padding:10%;
 }
 
 .form{
@@ -48,4 +52,22 @@ p{
 
 .boxForm{
     margin-right:15%;
+    margin-bottom: 50px;
 }
+
+.site_footer{
+  background-color: #bcc9d7 ;
+  padding: 20px;
+}
+
+
+.footer_logo{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left:100px;
+}
+
+.footer_contacts{
+  margin-right:100px;
+}
+
